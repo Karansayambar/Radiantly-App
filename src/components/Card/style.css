@@ -1,0 +1,22 @@
+.cart-container {
+  margin: 0%;
+  padding: 0px;
+  background-color: rgba(128, 128, 128, 0.16);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(146, 142, 137, 0.538);
+    border-radius: 0.4rem;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+}
